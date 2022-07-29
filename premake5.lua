@@ -10,9 +10,9 @@ project "Box2D"
     }
 
     files {
-        "vendor/box2d/include/**.h",
-        "vendor/box2d/src/**.h",
-        "vendor/box2d/src/**.cpp"
+        "include/**.h",
+        "src/**.h",
+        "src/**.cpp"
     }
 
     filter "configurations:Debug"
